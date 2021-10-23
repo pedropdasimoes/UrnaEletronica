@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.divTotal{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bodyUrna{
+    background-color: #dbd5c9;
+    width: 900px;
+    height: 400px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.telaUrna{
+    height: 100%;
+    width: 60%;
+    background: linear-gradient(to right, #E8E8E8, #C1C1C1);
+    border: solid 2px rgb(63, 63, 63);
+}
+.tecladoUrna{
+    width: 35%;
+    height: 100%;
+    background: #403A3A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.linhaButton{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button{
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    width: 80px;
+    height: 50px;
+    color: #FFF;
+    background-color: #000;
+    box-shadow: 3px 3px 0px #555;
+    cursor: pointer;
+}
+.btnBranco{
+    background: #FFF;
+    color: #000;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 70px;
+    
+    align-self: flex-start;
+}
+.btnCorrige{
+    background: #F09046;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.btnConfirma{
+    background: #48C079;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 100px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 18px;
+    align-self: flex-start;
+}
+
+
+
+
+
+
+
+
+/*MODELO UM STYLE*/
+
+.model1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+.divNumbers{
+    display: flex;
+}
+.divLinha{
+    margin-left: -20px;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+.footerTela{
+    justify-self: flex-end;
+    width: 100%;
+}
+.number{
+    width: 30px;
+    height: 40px;
+    border: solid 1px #000;
+    text-align: center;
+    line-height: 40px;
+    font-size: 28px;
+    font-weight: 700;
+    transition: 0.5s ease;
+}
+.imgVereador img{
+    position: absolute;
+    top: 16%;
+    right: 10%;
+    width: 200px;
+    height: 200px;
+}
+.out{
+    display: none;
+}
+.pisca{
+    border: solid 1px rgb(189, 189, 189);
+}
+
+
+
+/*MODELO DOIS STYLE*/
+.model2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.model2 h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.piscaH1{
+    color: rgb(63, 63, 63);
+}
+
+
+
+
+.show{
+    display: flex;
+}
+.hidden{
+    display: none;
+}
+
+
+.cola{
+   
+    background-color: #dbd5c9;
+    width: 250px;
+    height: 400px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.colaModel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 250px;
+}
+.divNomes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.colaModel img{
+    width: 50px;
+}
+.colaModel:nth-child(1){
+    display: none;
+}
+
+
+
+.divImg{
+    display: flex;
+    flex-direction: column;
+}
