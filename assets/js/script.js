@@ -263,3 +263,4 @@ candidatoJson.map((item, index)=>{
 
 
 
+

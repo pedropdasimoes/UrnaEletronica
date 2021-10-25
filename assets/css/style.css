@@ -3,6 +3,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .divTotal{
     margin: auto;
     height: 100vh;
@@ -223,6 +229,17 @@ h3{
     display: flex;
     flex-direction: column;
 }
+#landscape{
+    display: none;
+}
 
 
+@media (max-width: 750px) and (orientation: portrait) {
 
+    #landscape{
+        display: block;
+        font-size: 6vw;
+        margin: 5vw 0vw;
+    }
+
+}
