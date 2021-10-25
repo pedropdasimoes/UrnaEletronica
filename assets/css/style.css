@@ -1,18 +1,21 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 .divTotal{
+    margin: auto;
     height: 100vh;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .bodyUrna{
     background-color: #dbd5c9;
-    width: 900px;
-    height: 400px;
-    padding: 30px;
+    width: 65vw;
+    height: 40vw;
+    padding: 1vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +27,7 @@
     border: solid 2px rgb(63, 63, 63);
 }
 .tecladoUrna{
-    width: 35%;
+    width: 25vw;
     height: 100%;
     background: #403A3A;
     display: flex;
@@ -41,10 +44,10 @@
 }
 .button{
     text-align: center;
-    line-height: 50px;
-    font-size: 30px;
-    width: 80px;
-    height: 50px;
+    line-height: 4vw;
+    font-size: 3vw;
+    width: 6vw;
+    height: 4vw;
     color: #FFF;
     background-color: #000;
     box-shadow: 3px 3px 0px #555;
@@ -53,33 +56,35 @@
 .btnBranco{
     background: #FFF;
     color: #000;
-    font-size: 16px;
+    font-size: 1vw;
     text-transform: uppercase;
     text-align: center;
     line-height: 1;
     justify-content: center;
     display: flex;
     align-items: center;
-    width: 100px;
-    height: 70px;
-    
+    width: 7vw;
+    height: 5vw;
     align-self: flex-start;
 }
 .btnCorrige{
     background: #F09046;
     color: #000;
-    font-size: 18px;
     text-transform: uppercase;
+    width: 7vw;
+    height: 5vw;
+    line-height: 5vw;
+    font-size: 1vw;
+    align-self: flex-start;
 }
 .btnConfirma{
     background: #48C079;
     color: #000;
-    font-size: 18px;
     text-transform: uppercase;
-    width: 100px;
-    height: 70px;
-    line-height: 70px;
-    font-size: 18px;
+    width: 7vw;
+    height: 5vw;
+    line-height: 5vw;
+    font-size: 1vw;
     align-self: flex-start;
 }
 
@@ -116,21 +121,27 @@
     width: 100%;
 }
 .number{
-    width: 30px;
-    height: 40px;
+    width: 3vw;
+    height: 4vw;
     border: solid 1px #000;
     text-align: center;
-    line-height: 40px;
-    font-size: 28px;
+    line-height: 4vw;
+    font-size: 3.5vw;
     font-weight: 700;
     transition: 0.5s ease;
 }
 .imgVereador img{
     position: absolute;
-    top: 16%;
-    right: 10%;
-    width: 200px;
-    height: 200px;
+    top: 4vw;
+    right: 1vw;
+    width: 16vw;
+    height: 16vw;
+}
+.model1 h1{
+    font-size: 2.5vw;
+}
+h3{
+    font-size: 1.5vw;
 }
 .out{
     display: none;
@@ -151,7 +162,7 @@
     width: 100%;
 }
 .model2 h1{
-    font-size: 40px;
+    font-size: 3vw;
     text-transform: uppercase;
 }
 .piscaH1{
@@ -172,9 +183,9 @@
 .cola{
    
     background-color: #dbd5c9;
-    width: 250px;
-    height: 400px;
-    padding: 30px;
+    width: 25vw;
+    height: 40vw;
+    padding: 1vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -185,8 +196,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 200px;
-    width: 250px;
+    height: 8vw;
+    width: 23vw;
 }
 .divNomes{
     display: flex;
@@ -196,15 +207,22 @@
     width: 100%;
 }
 .colaModel img{
-    width: 50px;
+    width: 5vw;
 }
 .colaModel:nth-child(1){
     display: none;
 }
-
-
+.colaModel h5{
+    font-size: 1.2vw;
+}
+.colaModel p{
+    font-size: 1.5vw;
+}
 
 .divImg{
     display: flex;
     flex-direction: column;
 }
+
+
+
